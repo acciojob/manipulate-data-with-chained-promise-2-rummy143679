@@ -27,4 +27,4 @@ const input = [1, 2, 3, 4];
 	}catch(e){
 		console.log(e)
 	}
-})
+})()
