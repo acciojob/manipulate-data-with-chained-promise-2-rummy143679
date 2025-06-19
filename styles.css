@@ -28,9 +28,3 @@ const input = [1, 2, 3, 4];
 		console.log(e)
 	}
 })
-filterOdd(input).then((ar) => {
-	div.innerHTML = ar.join(',');
-	return multiplay(ar);
-}).then((ar) => {
-	div.innerHTML = ar.join(',');
-}).catch(err => console.error(err));
