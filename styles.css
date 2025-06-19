@@ -20,10 +20,10 @@ const input = [1, 2, 3, 4];
 (async function() {
 	try{
 		const filtered = await filterOdd(input)
-		div.innerHtml = filtered.join(",");
+		div.innerHTML = filtered.join(",");
 
 		const mult = await multiplay(filtered);
-		div.innerHtml = filtered.join(",");
+		div.innerHTML = filtered.join(",");
 	}catch(e){
 		console.log(e)
 	}
