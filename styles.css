@@ -23,7 +23,7 @@ const input = [1, 2, 3, 4];
 		div.innerHTML = filtered.join(",");
 
 		const mult = await multiplay(filtered);
-		div.innerHTML = filtered.join(",");
+		div.innerHTML = mult.join(",");
 	}catch(e){
 		console.log(e)
 	}
